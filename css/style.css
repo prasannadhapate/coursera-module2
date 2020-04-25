@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box ;
+    font-family: Times New Roman, Times, serif;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+#a1 {
+    background-color: palevioletred;
+    border: 1.5px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    float: right;
+    margin: 0px;
+    border-top: unset;
+    border-right: unset;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+#a2 {
+    background-color: rgb(223, 21, 31);
+    border: 1.5px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    float: right;
+    margin: 0px;
+    border-top: unset;
+    border-right: unset;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+#a3 {
+    background-color: rgb(230, 230, 174);
+    border: 1.5px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    float: right;
+    margin: 0px;
+    border-top: unset;
+    border-right: unset;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+#p1 {
+    position: relative;
+    padding: 2.5%;
+    clear: both;
+  }
+ #p2 {
+    position: relative;
+    padding: 2.5%;
+    clear: both;
+}
+#p3 {
+    position: relative;
+    padding: 2.5%;
+    clear: both;
+}
+.row {
+    width: 100%;
+  }
+
+  div {
+    position: relative;
+    box-sizing: border-box;
+    background-color: gray;
+    margin: 1.33%;
+  }
+
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      width: 30%;
+      float: left;
+      border: 2px solid black;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+      float: left;
+      border: 2px solid black;
+    }
+    .col-md-6 {
+      width: 47%;
+    }
+    .col-md-12 {
+      width: 96.8%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .col-sm-12 {
+      width: 100%;
+      float: left;
+      border: 2px solid black;
+    }
+  }
